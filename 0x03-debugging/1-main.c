@@ -15,10 +15,7 @@ int main(void)
 
 	while (i < 10)
 	{
-		if (i == 10)
-			break;
-		else 
-			putchar(i);
+		printf("%d", i);
 			i++;
 
 	}
